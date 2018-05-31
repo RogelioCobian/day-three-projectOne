@@ -17,8 +17,10 @@ class Point3D extends Point {
 
   constructor(xNum: number, yNum: number, zNum: number) {
     super(xNum, yNum);
-    this.x = xNum;
-    this.y = yNum;
+
+    // Super already refers to previously set values so the following comment below is a note
+    // this.x = xNum;
+    // this.y = yNum;
     this.z = zNum;
 
   }
